@@ -1,0 +1,112 @@
+.container{
+    
+    align-items: flex-start;
+}
+h1  {
+   
+    display : block;
+    text-shadow : 3px 3px 1px lightpink;
+    color : purple;
+    background-color :lightblue;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h3{
+    display : block;
+    color : darkred;
+    text-align : center;
+}
+
+
+.team{
+    background-image : url("./back1.jpg");
+    
+}
+
+  .cols {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color:white;
+    transition: transform .2s;
+  }
+  .card:hover{
+
+    transform: scale(1.2);
+    background-color : palevioletred;    
+  }
+  
+ 
+  @media screen and (max-width: 600px) {
+    .cols {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(226, 4, 255);
+    
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box
+  {
+      background-color : plum;
+      
+  }
+  .box:hover{
+      background-color : yellow;
+  }
+  img {
+    display: block;
+    width:100%;
+    height:200px;
+    
+  }
+
+  
+
+  .card1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color:white;
+    transition: transform .2s;
+    text-decoration-color: tomato;
+  }
+  .card1:hover{
+
+    
+    background-color : rgb(229, 245, 9);    
+  }
+
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgb(226, 4, 255);
+    
+  }
+
+  .p1{
+      font-size: 20;
+      font-display: block;
+      font-style: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color : lightseagreen;
+  }
