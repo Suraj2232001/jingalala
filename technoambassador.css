@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+}
+#clg{
+	margin-left:43px;
+	margin-right: 0px;
+}
+#lname{
+	margin-left: 13px;
+}
+#add{
+	margin-left: 25px;
+}
+#em{
+	margin-left: 34px;
+}
+#mo{
+	margin-left: 17px;
+}
+#gr{
+	margin-right: 7px;
+}
+.wrap{
+	max-width: 400px;
+	border-radius: 50px;
+	margin: auto;
+	background: rgba(0,0.3,0,0.6);
+	box-sizing: border-box;
+	padding: 40px;
+	color: #fff;
+	margin-top: 60px;
+	font-size: 14px;
+}
+body{
+	background: url(h.jpg);
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	margin-bottom: 13px;
+	color: #92a8d1;
+}
+h2{
+	text-align: center;
+	color: #80ced6;
+
+}
+textarea{
+	margin-top: 10px;
+}
+input[type=text]{
+	margin-left: 10px
+}
+input[type=submit]{
+  cursor: pointer;
+  padding: 15px 5;
+  margin-top: 20px;
+  outline: none;
+  border:none;
+  background: #60adde;
+  opacity: 0.7;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+  }
+  input[type=reset]{
+  cursor: pointer;
+  padding: 15px 5;
+  margin-top: 20px;
+  margin-left: 15px;
+  outline: none;
+  border:none;
+  background: #60adde;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #fff;
+}
+  input[type=submit]:hover{
+  background: #003366;
+  opacity: 0.7;}
+   input[type=reset]:hover{
+  background: #003366;
+  opacity: 0.7;}
